@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  pointer-events: none;
+  border-radius: 50%;
+}
+@keyframes moveParticles {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(300px);
+  }
+}
+span::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: inherit;
+  /* background-color: white; */
+  animation: moveParticles 2s linear infinite;
+}
