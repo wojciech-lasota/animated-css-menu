@@ -52,7 +52,6 @@ https://www.youtube.com/c/OnlineTutorials4Designers/videos
 
 <p float="left">
   <img src=https://github.com/wojciech-lasota/css-course/blob/main/clock/Screenshots/1.png?raw=true width="200" />
-  <img src="https://github.com/wojciech-lasota/css-course/blob/main/clock/Screenshots/2.png?raw=true" width="200" />
 </p>
 
 ## [css_border_animation](https://wojciech-lasota.github.io/css-course/css_border_animation)
